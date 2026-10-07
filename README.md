@@ -4,6 +4,15 @@ Data Science & AI master's student at École Polytechnique & HEC Paris, with an 
 
 I am interested in **applied machine learning, reliable AI systems, model evaluation, and quantitative research**. My work combines ML experimentation with software engineering, reproducibility, and careful evaluation.
 
+## Current research
+
+### Repository-Level LLM Agent Evaluation
+Research-oriented framework for measuring repository retrieval and localization for software-engineering LLM agents. Implements BM25, PyTorch Transformer dense retrieval, hybrid rank fusion, structured LLM reranking, localization metrics, and a leakage-aware SWE-bench evaluation adapter.
+
+The project is intentionally benchmark-first: no end-to-end performance claims are made before reproducible experiments are run.
+
+[View repository](https://github.com/RyanBalech/llm-agent-evaluation)
+
 ## Selected technical work
 
 ### Trustworthy Recidivism Forecasting
