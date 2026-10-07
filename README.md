@@ -13,9 +13,10 @@ I work on machine learning, software systems and quantitative research: implemen
 | [Flow Matching — Independent Reproduction](https://github.com/RyanBalech/Flow-Matching-Reproduction) | PyTorch vector fields, Euler/RK4 neural ODE integration, MMD evaluation | Five matched-compute seeds; RK4 mean MMD² ~8% lower, with a bootstrap interval spanning zero |
 | [Limit Order Book Research](https://github.com/RyanBalech/limit-order-book-research) | Order-flow imbalance, microprice, forward labels and chronological evaluation | Logistic, boosted-tree and DeepLOB-style baselines; reproducibility checks and cost-aware analysis |
 | [QRT Historical Reconstruction](https://github.com/RyanBalech/qrt-asset-allocation-reconstruction) | Overlap matching, exchange calendars, adaptive ridge and CatBoost | **76.21%** on 47,192 reserved rows; historical batch reconstruction, with evaluation provenance documented |
+| [Music Streaming Churn](https://github.com/RyanBalech/music-streaming-churn) | DuckDB event aggregation, 58 behavioral predictors, tree ensembles and user-level evaluation | 17.5M training events; original validation ROC AUC **0.764**; **1st of 40 teams** in the course competition |
 | [Recidivism Forecasting](https://github.com/RyanBalech/recidivism-forecasting-analysis) | Logistic regression, XGBoost and TabICLv2; calibration, interpretation and proxy/fairness auditing | 25K+ records; approximately **0.73 ROC AUC** |
 
-I also built **Allocation Lab**, a Docker-packaged Streamlit application with validated data imports, interactive ML evaluation and automated tests. Its source currently requires repository access.
+I also built **[Allocation Lab](https://github.com/RyanBalech/ens-data-camp-streamlit)**, a Docker-packaged Streamlit application with validated data imports, interactive ML evaluation and automated tests.
 
 ## Technical background
 
