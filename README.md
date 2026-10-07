@@ -1,45 +1,26 @@
 # Ryan Balech
 
-Data Science & AI master's student at École Polytechnique, with an Electrical & Computer Engineering background and experience in software and data engineering at Amazon.
+MSc **Data Science** at **École Polytechnique**, joint degree with **HEC Paris**. Electrical and Communications Engineering graduate from the **American University of Beirut**, with a **minor in Mathematics**. Software and data engineering experience at **Amazon** and **Inmind.ai**.
 
-I am interested in **applied machine learning, reliable AI systems, model evaluation, and quantitative research**. My work combines ML experimentation with software engineering, reproducibility, and careful evaluation.
+I work on machine learning, software systems and quantitative research: implementing models, designing experiments and building reproducible evaluation pipelines.
 
-## Current research
+## Research & engineering
 
-### Repository-Level LLM Agent Evaluation
-Research-oriented framework for measuring repository retrieval and localization for software-engineering LLM agents. Implements BM25, PyTorch Transformer dense retrieval, hybrid rank fusion, structured LLM reranking, localization metrics, and a leakage-aware SWE-bench evaluation adapter.
+| Project | Technical focus | Evidence |
+| --- | --- | --- |
+| [CUDA GEMM Performance](https://github.com/RyanBalech/cuda-deep-learning-performance) | C++, CUDA, shared-memory tiling, strict-FP32 cuBLAS, Nsight Compute | 30-shape FP64-reference validation; **1.30×** tiled/direct speedup at 512³ and 1024³ on RTX 4050 Laptop GPU; raw kernel timings and sanitizer logs |
+| [Repository-Level LLM Agent Evaluation](https://github.com/RyanBalech/llm-agent-evaluation) | SWE-bench Verified localization; BM25, Transformer retrieval and reciprocal-rank fusion | Fixed 20-instance BM25 baseline: Recall@5 **0.425**, MRR **0.279**, nDCG@5 **0.297** |
+| [Flow Matching — Independent Reproduction](https://github.com/RyanBalech/Flow-Matching-Reproduction) | PyTorch vector fields, Euler/RK4 neural ODE integration, MMD evaluation | Five matched-compute seeds; RK4 mean MMD² ~8% lower, with a bootstrap interval spanning zero |
+| [Limit Order Book Research](https://github.com/RyanBalech/limit-order-book-research) | Order-flow imbalance, microprice, forward labels and chronological evaluation | Logistic, boosted-tree and DeepLOB-style baselines; reproducibility checks and cost-aware analysis |
+| [QRT Historical Reconstruction](https://github.com/RyanBalech/qrt-asset-allocation-reconstruction) | Overlap matching, exchange calendars, adaptive ridge and CatBoost | **76.21%** on 47,192 reserved rows; historical batch reconstruction, with evaluation provenance documented |
+| [Recidivism Forecasting](https://github.com/RyanBalech/recidivism-forecasting-analysis) | Logistic regression, XGBoost and TabICLv2; calibration, interpretation and proxy/fairness auditing | 25K+ records; approximately **0.73 ROC AUC** |
 
-The project is intentionally benchmark-first: no end-to-end performance claims are made before reproducible experiments are run.
+I also built **Allocation Lab**, a Docker-packaged Streamlit application with validated data imports, interactive ML evaluation and automated tests. Its source currently requires repository access.
 
-[View repository](https://github.com/RyanBalech/llm-agent-evaluation)
+## Technical background
 
-## Selected technical work
+**Python · SQL · C++ · Java · PyTorch · PySpark · scikit-learn · NumPy · Pandas · Hugging Face Transformers · Git · Docker · GitHub Actions · Palantir Foundry**
 
-### Trustworthy Recidivism Forecasting
-End-to-end ML research project comparing logistic regression, XGBoost, and a tabular foundation model across predictive performance, calibration, interpretability, stability, leakage, and algorithmic fairness.
+CMA CGM Excellence Scholarship · GRE Quantitative **170/170** · AUB graduate with Distinction.
 
-- Built a reproducible Python pipeline with automated tests and validation checks.
-- Evaluated calibration with Brier score and ECE, model stability with bootstrap refits, and subgroup behavior with statistical tests.
-- Audited proxy leakage and interpretability using SHAP/LIME-style analyses and dedicated regression guards.
-- Includes a technical report, reproducible artifacts, Streamlit application, and end-to-end experiment scripts.
-
-[View repository](https://github.com/RyanBalech/recidivism-forecasting-analysis)
-
-### ENS Data Camp — ML Application
-Containerized data-science application built with Python and Streamlit, with Docker, automated testing, and CI.
-
-[View repository](https://github.com/RyanBalech/ens-data-camp-streamlit)
-
-## Current focus
-
-I am currently strengthening my work in:
-
-- PyTorch and modern deep-learning systems
-- LLM agents, retrieval, and model evaluation
-- Research reproduction and benchmarking
-- Production-quality ML engineering and open-source contribution
-
-## Technical interests
-
-`Python` · `Machine Learning` · `PyTorch` · `XGBoost` · `Model Evaluation` · `Interpretability` · `Statistical Testing` · `Docker` · `CI/CD`
-
+**Languages:** English — Fluent · Arabic — Native · French — Intermediate.
