@@ -1,6 +1,6 @@
 # Ryan Balech
 
-Data Science & AI master's student at École Polytechnique & HEC Paris, with an Electrical & Computer Engineering background and experience in software and data engineering at Amazon.
+Data Science & AI master's student at École Polytechnique, with an Electrical & Computer Engineering background and experience in software and data engineering at Amazon.
 
 I am interested in **applied machine learning, reliable AI systems, model evaluation, and quantitative research**. My work combines ML experimentation with software engineering, reproducibility, and careful evaluation.
 
