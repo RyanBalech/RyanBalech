@@ -21,6 +21,3 @@ I also built **Allocation Lab**, a Docker-packaged Streamlit application with va
 
 **Python · SQL · C++ · Java · PyTorch · PySpark · scikit-learn · NumPy · Pandas · Hugging Face Transformers · Git · Docker · GitHub Actions · Palantir Foundry**
 
-CMA CGM Excellence Scholarship · GRE Quantitative **170/170** · AUB graduate with Distinction.
-
-**Languages:** English — Fluent · Arabic — Native · French — Intermediate.
