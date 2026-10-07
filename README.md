@@ -1,6 +1,6 @@
 # Ryan Balech
 
-MSc **Data Science** at **École Polytechnique**, joint degree with **HEC Paris**. Electrical and Communications Engineering graduate from the **American University of Beirut**, with a **minor in Mathematics**. Software and data engineering experience at **Amazon** and **Inmind.ai**.
+MSc **Data Science** at **École Polytechnique**. Electrical and Communications Engineering graduate from the **American University of Beirut**, with a **minor in Mathematics**. Software and data engineering experience at **Amazon**.
 
 I work on machine learning, software systems and quantitative research: implementing models, designing experiments and building reproducible evaluation pipelines.
 
